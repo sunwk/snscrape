@@ -288,3 +288,6 @@ def main():
 			logger.info(f'Done, found {i} results')
 			if args.progress:
 				print(f'Finished, {i} results', file = sys.stderr)
+
+if __name__ == '__main__':
+	main()
